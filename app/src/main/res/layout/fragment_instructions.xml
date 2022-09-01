@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/white"
+        tools:context=".InstructionsFragment">
+
+
+
+        <TextView
+            android:id="@+id/instructions_text"
+            android:layout_width="347dp"
+            android:layout_height="94dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="@string/instructions_text"
+            android:textAlignment="center"
+            android:textColor="@color/teal_700"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.458"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.066" />
+
+        <TextView
+            android:id="@+id/instructions1_text"
+            android:layout_width="358dp"
+            android:layout_height="246dp"
+            android:text="@string/instruction2_text"
+            android:textAlignment="center"
+            android:textColor="#009688"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instructions_text"
+            app:layout_constraintVertical_bias="0.165" />
+
+        <Button
+            android:id="@+id/next_text"
+            android:layout_width="249dp"
+            android:layout_height="59dp"
+            android:text="@string/next_button"
+            android:textColor="@color/material_dynamic_neutral0"
+            app:backgroundTint="@color/teal_700"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instructions1_text"
+            app:layout_constraintVertical_bias="0.702" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

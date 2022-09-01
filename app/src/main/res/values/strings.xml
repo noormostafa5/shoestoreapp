@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">shoestoreapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="done_button">Done</string>
+    <string name="shoe_img">"shoe store "</string>
+    <string name="name_text">"Name "</string>
+    <string name="password_text">Password</string>
+    <string name="name1_text">Name</string>
+    <string name="person_name">person name</string>
+    <string name="person_password">person password</string>
+    <string name="shoestore_jpg">shoestore_jpg</string>
+    <string name="scroll_view">scroll_view</string>
+    <string name="welcome_text">WELCOME</string>
+    <string name="welcome2_text">Welcome, you can search for items in the next page</string>
+    <string name="next_button">Next</string>
+    <string name="part1welcome">WELCOME TO SHOE STORE</string>
+    <string name="welcome_jpg">welcome jpg</string>
+    <string name="proceed_text">Please proceed to next page</string>
+    <string name="instructions_text">Instructions</string>
+    <string name="instructions1_text">Press the + button to add the shoes to your cart and proceed to checkout</string>
+    <string name="instruction2_text">Choose shoes from shoes list and proceed to checkout and write your shoes code</string>
+    <string name="shoe1_text">Shoe 1</string>
+    <string name="shoe1_code">1234</string>
+    <string name="shoe1_jpg">shoe1 image</string>
+    <string name="shoe2_text">Shoe 2</string>
+    <string name="shoe2_code">1235</string>
+    <string name="shoe2_jpg">shoe 3 image</string>
+    <string name="shoe3_text">Shoe 3</string>
+    <string name="shoe3_code">1236</string>
+    <string name="shoe3_jpg">shoe 3 image</string>
+    <string name="shoe4_text">Shoe 4</string>
+    <string name="shoe4_code">1237</string>
+    <string name="shoe4_jpg">shoe 4 image</string>
+    <string name="shoe_text">Shoe details</string>
+    <string name="company_name">Company name:</string>
+    <string name="shoe_code">Shoe code:</string>
+    <string name="shoesize_text">Shoe size:</string>
+</resources>

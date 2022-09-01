@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_style" parent="android:Widget.DeviceDefault.TextView">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">331dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+    </style>
+
+    <style name="shoetextstyle">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:fontFamily">@font/abril_fatface</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/white"
+        tools:context=".ShoeListFragment">
+
+
+        <TextView
+            android:id="@+id/shoe1_text"
+            android:text="@string/shoe1_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023"
+            style="@style/shoetextstyle" />
+
+        <TextView
+            android:id="@+id/shoe1_code"
+            android:layout_width="58dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/shoe1_code"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.099"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shoe1_text" />
+
+        <ImageView
+            android:id="@+id/shoe1_jpg"
+            android:layout_width="282dp"
+            android:layout_height="151dp"
+            android:contentDescription="@string/shoe1_jpg"
+            android:src="@drawable/shoe1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/shoe1_text"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.027" />
+
+        <TextView
+            android:id="@+id/shoe2_text"
+            style="@style/shoetextstyle"
+            android:layout_width="91dp"
+            android:layout_height="39dp"
+            android:text="@string/shoe2_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.265" />
+
+        <TextView
+            android:id="@+id/shoe2_code"
+            android:layout_width="60dp"
+            android:layout_height="22dp"
+            android:text="@string/shoe2_code"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.091"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.344" />
+
+        <ImageView
+            android:id="@+id/shoe2_jpg"
+            android:layout_width="273dp"
+            android:layout_height="170dp"
+            android:contentDescription="@string/shoe2_jpg"
+            android:src="@drawable/shoe2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shoe1_jpg"
+            app:layout_constraintVertical_bias="0.043" />
+
+        <TextView
+            android:id="@+id/shoe3_text"
+            style="@style/shoetextstyle"
+            android:layout_width="83dp"
+            android:layout_height="33dp"
+            android:text="@string/shoe3_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.073"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.541" />
+
+        <TextView
+            android:id="@+id/shoe3_code"
+            android:layout_width="61dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="108dp"
+            android:text="@string/shoe3_code"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.091"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.535" />
+
+        <ImageView
+            android:id="@+id/shoe3_jpg"
+            android:layout_width="273dp"
+            android:layout_height="146dp"
+            android:contentDescription="@string/shoe3_jpg"
+            android:src="@drawable/shoe3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shoe2_jpg"
+            app:layout_constraintVertical_bias="0.103" />
+
+        <TextView
+            android:id="@+id/shoe4_text"
+            style="@style/shoetextstyle"
+            android:layout_width="82dp"
+            android:layout_height="41dp"
+            android:text="@string/shoe4_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.773" />
+
+        <TextView
+            android:id="@+id/shoe4_code"
+            android:layout_width="56dp"
+            android:layout_height="26dp"
+            android:text="@string/shoe4_code"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.846" />
+
+        <ImageView
+            android:id="@+id/shoe4_jpg"
+            android:layout_width="273dp"
+            android:layout_height="156dp"
+            android:layout_marginBottom="28dp"
+            android:contentDescription="@string/shoe4_jpg"
+            android:src="@drawable/shoe4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+             />
+
+        <Button
+            android:id="@+id/done2_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_700"
+            android:text="@string/done_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.959" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
